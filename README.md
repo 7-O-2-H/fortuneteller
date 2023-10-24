@@ -12,3 +12,7 @@ Simple app built using python and django
     - run pipenv install django
 3. In virtual environment and the app directory cd into fortuneteller
 4. Run python3 manage.py runserver to run app in default server
+
+#### Dependencies
+
+-python3
