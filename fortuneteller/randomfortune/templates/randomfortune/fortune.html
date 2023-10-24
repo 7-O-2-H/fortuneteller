@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Django Fortune Teller</title>
- <style>
-   body {
-     text-align: center;
-   }
- </style>
-</head>
+  <title>Fortune Teller</title>
+  <style>
+    body {
+      padding: 4em;
+      text-align: center;
+      background-color: rgb(177, 235, 206);
+      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+    }
+    div {
+      padding: 1em;
+    }
+  </style>
+  </head>
 <body>
-
- <h1>Here is your fortune:</h1>
-
- <p>{{ fortune }}</p>
-
+  <div class="display">
+    <div>
+      <h1 style="color: rgb(87, 15, 87)";><u>FORTUNE TELLER</u></h1>
+    </div>
+    <div>
+      <h2>Here is your fortune:</h2>
+    </div>
+    <div>
+      <h3 style="color: rgba(19, 83, 85, 0.713)";>🔮 {{ fortune }} 🔮</h3>
+    </div>
+  </div>
 </body>
 </html>
