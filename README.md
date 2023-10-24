@@ -2,9 +2,9 @@
 
 Simple app built using python and django
 
-## Refresh page while app is running to generate your fortune
+### Refresh page while app is running to generate your fortune
 
-## Setup
+#### Setup
 
 1. Clone repository
 2. Setup virtual environment to run app in
